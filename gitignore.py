@@ -1,9 +1,8 @@
 #!/usr/bin/env python3
-import sys;
+import sys,os;
 
 
-ignorefilePath="ignorefiles/"
-
+ignorefilePath=os.path.dirname(__file__)+os.sep+"ignorefiles"+os.sep
 
 def main():
 	ignorefile = sys.argv[1]
